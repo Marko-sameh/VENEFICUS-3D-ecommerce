@@ -78,7 +78,7 @@ export const useOrders = () => {
       if (orderId) {
         fetchOrderById(orderId);
       }
-    }, [orderId, fetchOrderById]);
+    }, [orderId]); // fetchOrderById is from store and doesn't need to be in deps
 
     return { order: currentOrder, loading: isLoading, error };
   };

@@ -16,7 +16,7 @@ export const useProducts = () => {
     if (debouncedSearchQuery) {
       handleSearch(debouncedSearchQuery);
     }
-  }, [debouncedSearchQuery]);
+  }, [debouncedSearchQuery, handleSearch]);
 
   const handleSearch = useCallback(async (query) => {
     try {
@@ -32,7 +32,7 @@ export const useProducts = () => {
     } catch (error) {
       
     }
-  }, [store]);
+  }, [store.fetchProducts]);
 
   const fetchProductBySlug = useCallback(async (slug) => {
     try {
@@ -41,7 +41,7 @@ export const useProducts = () => {
       
       throw error;
     }
-  }, [store]);
+  }, [store.fetchProductBySlug]);
 
   const setInitialData = (data) => {
     useProductsStore.setState({
@@ -55,7 +55,7 @@ export const useProducts = () => {
   // Category helpers
   const toggleCategory = useCallback((categoryId) => {
     store.toggleCategory(categoryId);
-  }, [store]);
+  }, [store.toggleCategory]);
 
   const isActiveCategory = useCallback((categoryPath) => {
     return pathname?.startsWith(`/shop/categories/${categoryPath}`) || false;
@@ -105,13 +105,13 @@ export const useProducts = () => {
     if (color && typeof color === 'string') {
       store.selectColor(color);
     }
-  }, [store]);
+  }, [store.selectColor]);
 
   const updateSize = useCallback((sizeName) => {
     if (sizeName && typeof sizeName === 'string') {
       store.selectSize(sizeName);
     }
-  }, [store]);
+  }, [store.selectSize]);
 
   const initializeClient = useCallback((colors = [], sizes = []) => {
     store.initializeClient(colors, sizes);
@@ -120,12 +120,12 @@ export const useProducts = () => {
   // Stable getFilteredProducts function
   const getFilteredProductsCallback = useCallback((products) => {
     return store.getFilteredProducts(products);
-  }, [store.filters]);
+  }, [store.getFilteredProducts]);
 
   // Filtered products selector
   const filteredProducts = useMemo(() => {
     return store.getFilteredProducts(store.products);
-  }, [store.products, store.filters]);
+  }, [store.products, store.filters, store.getFilteredProducts]);
 
 
 

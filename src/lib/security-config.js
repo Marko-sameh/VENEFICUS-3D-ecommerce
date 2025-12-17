@@ -101,7 +101,7 @@ export const API_SECURITY = {
   TIMEOUT: 30000 // 30 seconds
 };
 
-export default {
+const securityConfig = {
   ALLOWED_DOMAINS,
   CSP_CONFIG,
   VALIDATION_PATTERNS,
@@ -112,3 +112,5 @@ export default {
   SESSION_CONFIG,
   API_SECURITY
 };
+
+export default securityConfig;
