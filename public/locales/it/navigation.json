@@ -1,0 +1,121 @@
+{
+  "menu": {
+    "home": "Home",
+    "shop": "Negozio",
+    "collections": "Collezioni",
+    "products": "Prodotti",
+    "categories": "Categorie",
+    "newArrivals": "Nuovi Arrivi",
+    "sale": "Saldi",
+    "about": "Chi Siamo",
+    "contact": "Contatti",
+    "blog": "Blog",
+    "journal": "Giornale",
+    "sizeGuide": "Guida alle Taglie",
+    "shipping": "Spedizione",
+    "returns": "Resi",
+    "faq": "FAQ",
+    "support": "Supporto"
+  },
+  "categories": {
+    "men": "Uomo",
+    "women": "Donna",
+    "unisex": "Unisex",
+    "accessories": "Accessori",
+    "jeans": "Jeans",
+    "jackets": "Giacche",
+    "shirts": "Camicie",
+    "shorts": "Pantaloncini"
+  },
+  "account": {
+    "myAccount": "Il Mio Account",
+    "profile": "Profilo",
+    "orders": "I Miei Ordini",
+    "wishlist": "Lista Desideri",
+    "addresses": "Indirizzi",
+    "settings": "Impostazioni",
+    "signIn": "Accedi",
+    "signUp": "Registrati",
+    "signOut": "Esci",
+    "register": "Registrati",
+    "login": "Accedi",
+    "logout": "Esci"
+  },
+  "cart": {
+    "cart": "Carrello",
+    "miniCart": "Mini Carrello",
+    "viewCart": "Visualizza Carrello",
+    "checkout": "Checkout",
+    "emptyCart": "Il tuo carrello è vuoto",
+    "itemsInCart": "{{count}} articolo nel carrello",
+    "itemsInCart_plural": "{{count}} articoli nel carrello",
+    "subtotal": "Subtotale",
+    "total": "Totale",
+    "remove": "Rimuovi",
+    "update": "Aggiorna",
+    "quantity": "Quantità",
+    "continueShopping": "Continua gli Acquisti"
+  },
+  "search": {
+    "search": "Cerca",
+    "searchPlaceholder": "Cerca prodotti...",
+    "searchResults": "Risultati di Ricerca",
+    "noResults": "Nessun risultato trovato",
+    "popularSearches": "Ricerche Popolari",
+    "recentSearches": "Ricerche Recenti",
+    "clearSearch": "Cancella Ricerca",
+    "searchSuggestions": "Suggerimenti di Ricerca"
+  },
+  "filters": {
+    "filter": "Filtro",
+    "filters": "Filtri",
+    "filterBy": "Filtra per",
+    "sortBy": "Ordina per",
+    "clearFilters": "Cancella Filtri",
+    "applyFilters": "Applica Filtri",
+    "showResults": "Mostra Risultati",
+    "hideFilters": "Nascondi Filtri",
+    "showFilters": "Mostra Filtri"
+  },
+  "breadcrumbs": {
+    "home": "Home",
+    "shop": "Negozio",
+    "category": "Categoria",
+    "product": "Prodotto",
+    "collection": "Collezione",
+    "search": "Risultati di Ricerca"
+  },
+  "pagination": {
+    "previous": "Precedente",
+    "next": "Successivo",
+    "page": "Pagina",
+    "of": "di",
+    "showing": "Mostrando",
+    "results": "risultati",
+    "loadMore": "Carica Altri",
+    "viewAll": "Visualizza Tutto"
+  },
+  "language": {
+    "language": "Lingua",
+    "selectLanguage": "Seleziona Lingua",
+    "english": "English",
+    "italian": "Italiano"
+  },
+  "currency": {
+    "currency": "Valuta",
+    "selectCurrency": "Seleziona Valuta",
+    "usd": "USD",
+    "eur": "EUR",
+    "gbp": "GBP"
+  },
+  "accessibility": {
+    "skipToContent": "Vai al contenuto",
+    "openMenu": "Apri menu",
+    "closeMenu": "Chiudi menu",
+    "toggleMenu": "Attiva/disattiva menu",
+    "mainNavigation": "Navigazione principale",
+    "searchForm": "Modulo di ricerca",
+    "languageSelector": "Selettore lingua",
+    "currencySelector": "Selettore valuta"
+  }
+}

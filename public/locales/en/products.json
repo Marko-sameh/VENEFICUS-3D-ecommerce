@@ -1,0 +1,106 @@
+{
+  "title": "Products",
+  "subtitle": "Discover our premium denim collection",
+  "categories": {
+    "all": "All Products",
+    "men": "Men's Collection",
+    "women": "Women's Collection",
+    "unisex": "Unisex Collection",
+    "accessories": "Accessories",
+    "new": "New Arrivals",
+    "sale": "Sale Items"
+  },
+  "productTypes": {
+    "jeans": "Jeans",
+    "jackets": "Jackets",
+    "shirts": "Shirts",
+    "shorts": "Shorts",
+    "skirts": "Skirts",
+    "overalls": "Overalls"
+  },
+  "fits": {
+    "slim": "Slim Fit",
+    "regular": "Regular Fit",
+    "relaxed": "Relaxed Fit",
+    "skinny": "Skinny Fit",
+    "straight": "Straight Fit",
+    "bootcut": "Bootcut",
+    "flare": "Flare"
+  },
+  "materials": {
+    "cotton": "100% Cotton",
+    "organic": "Organic Cotton",
+    "stretch": "Stretch Denim",
+    "selvedge": "Selvedge Denim",
+    "raw": "Raw Denim",
+    "recycled": "Recycled Denim"
+  },
+  "colors": {
+    "indigo": "Indigo",
+    "black": "Black",
+    "navy": "Navy",
+    "white": "White",
+    "gray": "Gray",
+    "blue": "Blue",
+    "lightWash": "Light Wash",
+    "mediumWash": "Medium Wash",
+    "darkWash": "Dark Wash"
+  },
+  "sizes": {
+    "xs": "Extra Small",
+    "s": "Small",
+    "m": "Medium",
+    "l": "Large",
+    "xl": "Extra Large",
+    "xxl": "2X Large"
+  },
+  "details": {
+    "quickView": "Quick View",
+    "addToWishlist": "Add to Wishlist",
+    "removeFromWishlist": "Remove from Wishlist",
+    "compareProducts": "Compare Products",
+    "shareProduct": "Share Product",
+    "viewDetails": "View Details",
+    "selectOptions": "Select Options",
+    "chooseSize": "Choose Size",
+    "chooseColor": "Choose Color",
+    "quantityLabel": "Quantity",
+    "stockStatus": "Stock Status",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "lowStock": "Low Stock",
+    "preOrder": "Pre-Order",
+    "backOrder": "Back Order"
+  },
+  "productInfo": {
+    "description": "Description",
+    "specifications": "Specifications",
+    "careInstructions": "Care Instructions",
+    "sizeGuide": "Size Guide",
+    "shippingInfo": "Shipping Information",
+    "returnPolicy": "Return Policy",
+    "reviews": "Customer Reviews",
+    "relatedProducts": "Related Products",
+    "recentlyViewed": "Recently Viewed"
+  },
+  "actions": {
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "addedToCart": "Added to Cart",
+    "adding": "Adding...",
+    "selectSize": "Please select a size",
+    "selectColor": "Please select a color",
+    "maxQuantity": "Maximum quantity reached",
+    "minQuantity": "Minimum quantity is 1"
+  },
+  "pricing": {
+    "price": "Price",
+    "salePrice": "Sale Price",
+    "originalPrice": "Original Price",
+    "compareAt": "Compare at",
+    "save": "Save",
+    "free": "Free",
+    "from": "From",
+    "to": "To"
+  }
+}
