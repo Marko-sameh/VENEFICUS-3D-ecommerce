@@ -1,0 +1,106 @@
+{
+  "title": "Prodotti",
+  "subtitle": "Scopri la nostra collezione denim premium",
+  "categories": {
+    "all": "Tutti i Prodotti",
+    "men": "Collezione Uomo",
+    "women": "Collezione Donna",
+    "unisex": "Collezione Unisex",
+    "accessories": "Accessori",
+    "new": "Nuovi Arrivi",
+    "sale": "Articoli in Saldo"
+  },
+  "productTypes": {
+    "jeans": "Jeans",
+    "jackets": "Giacche",
+    "shirts": "Camicie",
+    "shorts": "Pantaloncini",
+    "skirts": "Gonne",
+    "overalls": "Salopette"
+  },
+  "fits": {
+    "slim": "Vestibilità Slim",
+    "regular": "Vestibilità Regular",
+    "relaxed": "Vestibilità Rilassata",
+    "skinny": "Vestibilità Skinny",
+    "straight": "Vestibilità Dritta",
+    "bootcut": "Bootcut",
+    "flare": "Svasato"
+  },
+  "materials": {
+    "cotton": "100% Cotone",
+    "organic": "Cotone Biologico",
+    "stretch": "Denim Elasticizzato",
+    "selvedge": "Denim Selvedge",
+    "raw": "Denim Grezzo",
+    "recycled": "Denim Riciclato"
+  },
+  "colors": {
+    "indigo": "Indaco",
+    "black": "Nero",
+    "navy": "Blu Navy",
+    "white": "Bianco",
+    "gray": "Grigio",
+    "blue": "Blu",
+    "lightWash": "Lavaggio Chiaro",
+    "mediumWash": "Lavaggio Medio",
+    "darkWash": "Lavaggio Scuro"
+  },
+  "sizes": {
+    "xs": "Extra Small",
+    "s": "Small",
+    "m": "Medium",
+    "l": "Large",
+    "xl": "Extra Large",
+    "xxl": "2X Large"
+  },
+  "details": {
+    "quickView": "Anteprima Rapida",
+    "addToWishlist": "Aggiungi alla Lista Desideri",
+    "removeFromWishlist": "Rimuovi dalla Lista Desideri",
+    "compareProducts": "Confronta Prodotti",
+    "shareProduct": "Condividi Prodotto",
+    "viewDetails": "Visualizza Dettagli",
+    "selectOptions": "Seleziona Opzioni",
+    "chooseSize": "Scegli Taglia",
+    "chooseColor": "Scegli Colore",
+    "quantityLabel": "Quantità",
+    "stockStatus": "Stato Scorte",
+    "inStock": "Disponibile",
+    "outOfStock": "Esaurito",
+    "lowStock": "Scorte Limitate",
+    "preOrder": "Pre-Ordine",
+    "backOrder": "Ordine Arretrato"
+  },
+  "productInfo": {
+    "description": "Descrizione",
+    "specifications": "Specifiche",
+    "careInstructions": "Istruzioni per la Cura",
+    "sizeGuide": "Guida alle Taglie",
+    "shippingInfo": "Informazioni Spedizione",
+    "returnPolicy": "Politica di Reso",
+    "reviews": "Recensioni Clienti",
+    "relatedProducts": "Prodotti Correlati",
+    "recentlyViewed": "Visualizzati di Recente"
+  },
+  "actions": {
+    "addToCart": "Aggiungi al Carrello",
+    "buyNow": "Acquista Ora",
+    "addedToCart": "Aggiunto al Carrello",
+    "adding": "Aggiungendo...",
+    "selectSize": "Seleziona una taglia",
+    "selectColor": "Seleziona un colore",
+    "maxQuantity": "Quantità massima raggiunta",
+    "minQuantity": "La quantità minima è 1"
+  },
+  "pricing": {
+    "price": "Prezzo",
+    "salePrice": "Prezzo Scontato",
+    "originalPrice": "Prezzo Originale",
+    "compareAt": "Confronta a",
+    "save": "Risparmia",
+    "free": "Gratuito",
+    "from": "Da",
+    "to": "A"
+  }
+}
